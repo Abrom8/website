@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abromeit.xyz</title>
+    <link rel="icon" type="image/png" href="/img/afavicon.png">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/fadeIn.css" />
+    <link rel="stylesheet" href="/css/portfolio-cards.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div id="headerwrapper" class="no-select animate fadeInTop delayShort">
+        <div class="logo">
+            <img src="" alt="">
+            <b><a href="/index.html" onclick="uncheckmenu()">A<span style="color: #000;">.</span></a></b>
+        </div>
+
+        <div class="social__headerwrapper">
+            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/sebastian-abromeit-3597931a3"><i class="fab fa-linkedin button"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Abrom8"><i class="fab fa-github-square button"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Sebastian_Abromeit2/"><i class="fab fa-xing-square button"></i></a>
+        </div>
+
+        <input type="checkbox" name=menu_checkbox id="abutton" onchange="showhidemenu()">
+        <label for="abutton" class="abutton">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+
+    </div>
+    <div id="menu_overlay" class="no-select animateShort fadeIn">
+        <ul class="nav__list_overlay">
+            <li class="nav__item" onclick="clickmenu()"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item" onclick="clickmenu()"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item" onclick="clickmenu()"><a href="#projects" class="nav__link">Projects</a></li>
+            <li class="nav__item" onclick="clickmenu()"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+
+
+        <div class="content animate fadeInLeft delay">
+
+            <p>Hi, my name’s <b>Sebastian Abromeit.</b><br>
+                system integration expert | software developer | blockchain enthusiast</p>
+
+        </div>
+        <div class="avatar_container no-select animate fadeIn">
+            <a href=##><img src="/img/avatar.jpg" alt="Avatar" class="avatar"></a>
+        </div>
+
+        <div class="social">
+
+            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/sebastian-abromeit-3597931a3"><i class="fab fa-linkedin button"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Abrom8"><i class="fab fa-github-square button"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Sebastian_Abromeit2/"><i class="fab fa-xing-square button"></i></a>
+        </div>
+
+
+        <div class="sidebar no-select animate fadeInRight delayLong">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item button"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item button"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item button"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item button"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="aboutme1">
+            <h1><a name="about"></a>About me.</h1>
+            <p>Hello there! I'm Sebastian, a system integration expert and aspiring software developer based in Berlin, Germany.</p>
+
+            <p>I have solid understanding of how IT systems operate, from networks and their protocols to operating systems, as well as virtualization and data storage.</p>
+            
+            <p>There are new technologies like blockchain on the horizon, which have the potential to have a great impact on society. I want to be an active part of these changes. That’s one of the reasons why I’m focusing more on software development right now.</p>
+            
+            <p>If you can dream it, you can do it and I like to dream big<span class="cursor"> &#9608</span></p>
+            
+        </div>
+        <div class="aboutme3">
+            <div id="hello_friend" class="no-select animate fadeIn">
+                <a href=##><img src="/img/hello_friend.jpeg" alt="hello_friend" id="hello_friend"></a>
+            </div>
+        </div>
+        <div class="content2">
+            <h1><a name="skills"></a>My Skills.</h1>
+            <div class="skills_flexbox">
+                <div class="skill">
+                    <i class="fas fa-network-wired"></i>
+                    Networks
+                </div>
+                <div class="skill">
+                    <i class="fas fa-server"></i>
+                    Virtualization
+                </div>
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    Python
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    SQL
+                </div>
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    HTML
+                </div>                
+                <div class="skill">
+                    <i class="fab fa-css3"></i>
+                    CSS
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square"></i>
+                    Javascript
+                </div>
+            </div>
+
+            <h1><a name="projects"></a>Projects.</h1>
+
+            <div class="outer-portfolio-wrapper">
+
+                <div class="portfolio-wrapper">
+                    <div class="img-wrappper "><img src="/img/axyz.png"></div>
+
+                    <div class="info">
+                        <h2>Abromeit.xyz</h2>
+                        <p>HTML, CSS, Javascript</p>
+                        <p><i class="fab fa-github button"></i></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <h1><a name="contact"></a>Let's get in touch!</h1>
+            <p>Write me an email | <a href="mailto:abromeit@posteo.de">abromeit@posteo.de</a><br>
+                Find me on <a href="https://linkedin.com/in/sebastian-abromeit-3597931a3">linkedIn</a>
+
+            </p>
+
+
+        </div>
+
+    </div>
+    <script src="/js/menubutton.js"></script>
+    <script src="/js/hideheader.js"></script>
+</body>
+
+</html>
