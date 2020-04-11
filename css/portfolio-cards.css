@@ -32,15 +32,15 @@
 
 
 .portfolio-wrapper .info{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   width: auto;
   height: auto;
-margin: 10px;
-  }
+  margin: 10px;
+}
 
-.portfolio-wrapper .info p, .portfolio-wrapper .info  h2{
+.portfolio-wrapper .info p,.portfolio-wrapper .info p a i, .portfolio-wrapper .info  h2{
 text-align: center;
   color:#FFF;
   }
